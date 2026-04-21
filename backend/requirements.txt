@@ -1,0 +1,25 @@
+# --- Pinned versions (from legacy Vehicle Tracking project) ---
+numpy==1.23.5
+ultralytics==8.0.46
+hydra-core
+easydict
+openpyxl
+
+# DeepSORT / tracking stack
+scipy
+PyYAML
+
+# FastAPI backend (not in original requirements.txt)
+fastapi
+uvicorn[standard]
+python-multipart
+
+opencv-python-headless
+pandas
+Pillow
+
+# PyTorch — default wheels: CPU on macOS/Windows; for Linux+CUDA 11.7 use:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu117
+# before: pip install -r requirements.txt
+torch
+torchvision
